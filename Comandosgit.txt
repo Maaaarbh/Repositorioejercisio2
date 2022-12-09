@@ -1,0 +1,34 @@
+
+maria@Mar MINGW64 ~/.git/Repositorioejercisio2 (GIT_DIR!)
+$ git init
+Initialized empty Git repository in C:/Users/maria/.git/Repositorioejercisio2/.git/
+
+maria@Mar MINGW64 ~/.git/Repositorioejercisio2 (master)
+$ git add .
+
+maria@Mar MINGW64 ~/.git/Repositorioejercisio2 (master)
+$ git commit -m "Sube"
+[master (root-commit) f25701f] Sube
+ 3 files changed, 104 insertions(+)
+ create mode 100644 Empresa.html
+ create mode 100644 Formulario.php
+ create mode 100644 estilo.css
+
+maria@Mar MINGW64 ~/.git/Repositorioejercisio2 (master)
+$ git branch -M main
+
+maria@Mar MINGW64 ~/.git/Repositorioejercisio2 (main)
+$ git remote add origin https://github.com/Maaaarbh/Repositorioejercisio2.git
+
+maria@Mar MINGW64 ~/.git/Repositorioejercisio2 (main)
+$ git push -u origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 1.34 KiB | 1.34 MiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Maaaarbh/Repositorioejercisio2.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
